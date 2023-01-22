@@ -2354,10 +2354,10 @@ textarea.form-control {
   text-decoration: none;
 }
 
-.btn:focus, .btn.focus {
+/* .btn:focus, .btn.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(241, 149, 178, 0.25);
-}
+} */
 
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -2385,12 +2385,12 @@ fieldset:disabled a.btn {
   border-color: #e55803;
 }
 
-.btn-primary:focus, .btn-primary.focus {
+/* .btn-primary:focus, .btn-primary.focus {
   color: #212529;
   background-color: #ed7399;
   border-color: #eb6891;
   box-shadow: 0 0 0 0.2rem rgba(210, 132, 157, 0.5);
-}
+} */
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #212529;
@@ -2405,10 +2405,10 @@ fieldset:disabled a.btn {
   border-color: #e55803;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+/* .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(210, 132, 157, 0.5);
-}
+} */
 
 .btn-secondary {
   color: #212529;
@@ -2424,15 +2424,15 @@ fieldset:disabled a.btn {
 
 .btn-secondary:focus, .btn-secondary.focus {
   color: #212529;
-  background-color: #41b6e2;
-  border-color: #36b2e0;
-  box-shadow: 0 0 0 0.2rem rgba(88, 171, 203, 0.5);
+  background-color: #e55803;
+  border-color: #e55803;
+  /* box-shadow: 0 0 0 0.2rem rgba(88, 171, 203, 0.5); */
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #212529;
-  background-color: #62C3E7;
-  border-color: #62C3E7;
+  background-color: #e55803;
+  border-color: #e55803;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
@@ -2442,10 +2442,10 @@ fieldset:disabled a.btn {
   border-color: #e55803;
 }
 
-.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
+/* .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(88, 171, 203, 0.5);
-}
+} */
 
 .btn-success {
   color: #fff;
@@ -9541,9 +9541,9 @@ a.text-primary:hover, a.text-primary:focus {
   color: #D5631F !important;
 }
 
-a.text-secondary:hover, a.text-secondary:focus {
+/* a.text-secondary:hover, a.text-secondary:focus {
   color: #21a9db !important;
-}
+} */
 
 .text-success {
   color: #28a745 !important;
